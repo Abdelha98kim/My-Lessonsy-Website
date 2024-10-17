@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #F5F7FA;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 60px;
+    margin-bottom: 4px;
+    align-items: center;
+    font-family: "Inter", serif;
+}
+
+nav .first-ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+nav .second-ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav .logo{
+    height: 20px;
+    position: relative;
+    left: 150px;
+}
+
+nav .logo img{
+    height: 100%;
+    cursor: pointer;
+}
+
+.log-sign{
+    position: absolute;
+    right: 60px;
+    padding: 0 10px 0 0;
+    font-size:12px;
+    
+}
+
+.log-sign .login{
+    background-color: #F5F7FA;
+    padding: 10px 5px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+.log-sign .login a{
+    color: #4CAF4F;
+}
+
+.log-sign .sign-up a{
+    color: #FFFFFF;
+}
+
+.log-sign .sign-up{
+    background-color: #4CAF4F;
+    padding: 10px 5px;
+    border-radius: 6px;
+    position: relative;
+    left: 10px;
+    font-weight: 300;
+}
+
+.nav-links{
+    margin: 0 auto;
+    
+}
+
+.nav-links ul li a{
+    color: #18191F;
+    font-size: smaller;
+    font-weight: normal;    
+    margin: 0 15px;
+}
+
+.nav-links ul li .home-link{
+    font-weight: 550;
+}
+
+
+.home .Hero-section{
+    display: grid;
+    height: 60vh;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid red;
+    background-color: #F5F7FA;
+}
+
+.home .Hero-section figure img{
+    width: 400px;
+    position: absolute;
+    right: 100px; 
+    top: 90px;
+}
+
+
+
+.home .eclippse ul{
+    list-style: disc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid red;
+    left: 500px;
+    background-color: #F5F7FA;
+    
+}
+
+
+.home .eclippse ul li{
+    color: #4CAF4F;
+}
+
+.home .eclippse ul .eclip{ 
+    opacity: 30%;
+}
+
+.home .eclippse ul .first-eclip{
+    color: #4CAF4F;
+}
+
