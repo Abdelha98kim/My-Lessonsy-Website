@@ -30,13 +30,19 @@ nav .second-ul{
 
 nav ul li a{
     text-decoration: none;
-    padding: 10px;
+    color: #18191F;
+    font-size: smaller;
+    font-weight: normal; 
+    margin: 0 15px;
 }
+
+
 
 nav .logo{
     height: 20px;
     position: relative;
     left: 150px;
+    width: 40px;
 }
 
 nav .logo img{
@@ -80,12 +86,6 @@ nav .logo img{
     
 }
 
-.nav-links ul li a{
-    color: #18191F;
-    font-size: smaller;
-    font-weight: normal;    
-    margin: 0 15px;
-}
 
 .nav-links ul li .home-link{
     font-weight: 550;
@@ -581,3 +581,79 @@ footer .footer-heading button{
     margin-top: 40px;
 }
 
+.services-main{
+    height: 100vh;
+    background-color: #EFF6FF;
+}
+
+.services-card div{
+    background-color: #61DA65;
+    width: 350px;
+    height: 235px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.services-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.services-card figure img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 75px;
+    left: 19px;
+}
+
+.card article{
+    width: 301px;
+    height: 40px;
+    position: relative;
+    left: 19px;
+    top: 25px;
+}
+
+.card article h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: #263238;
+}
+
+.card article small{
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFEFE;
+}
+
+.services-card #dance-classes, .services-card #health-and-fitness, .services-card #art-classes{
+    margin-top: 50px;
+}
+
+.services-principale-heading{
+    width: 296px;
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 48px;
+    position: relative;
+    left: 82px;
+    margin-bottom: 80px;
+    top: 50px;
+}
+
+.services button{
+    border: none;
+    width: 190px;
+    height: 39px;  
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    top: 55px;
+    left: 700px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #0C885E;
+}
